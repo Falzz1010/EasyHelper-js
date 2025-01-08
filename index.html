@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EasyHelper Demo</title>
+    <script src="EasyHelper.js"></script>
+</head>
+<body>
+    <script>
+        // Contoh penggunaan di browser
+        EasyHelper.setText('#myElement', 'Hello World');
+        
+        // Format angka
+        const formatted = EasyHelper.formatNumber(1000000);
+        console.log(formatted); // 1.000.000
+        
+        // Event listener
+        EasyHelper.on('#myButton', 'click', () => {
+            alert('Button clicked!');
+        });
+    </script>
+</body>
+</html> 
